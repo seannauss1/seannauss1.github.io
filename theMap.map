@@ -1,0 +1,12 @@
+<img src="[massachusetts-county-map] (imported)" width="750" height="417" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:seann -->
+<area shape="rect" coords="47,58,86,200" href="berkshire.mp3" />
+<area shape="rect" coords="127,38,252,85" href="franklin.mp3" />
+<area shape="rect" coords="420,49,468,116" href="middlesex.mp3" />
+</map>
