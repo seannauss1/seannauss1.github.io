@@ -6,7 +6,8 @@
 <!-- #$-:Please do not edit lines starting with "#$" -->
 <!-- #$VERSION:2.3 -->
 <!-- #$AUTHOR:seann -->
-<area shape="rect" coords="47,58,86,200" href="berkshire.mp3" />
+<area shape="rect" coords="47,58,86,200" target="audio" href="audio/berkshire.mp3" />
 <area shape="rect" coords="127,38,252,85" href="franklin.mp3" />
 <area shape="rect" coords="420,49,468,116" href="middlesex.mp3" />
+<area shape="rect" coords="297,111,365,178"  nohref="nohref" />
 </map>
