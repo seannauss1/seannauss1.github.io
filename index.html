@@ -1,54 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>My First W
-        ebpage</title>
-</head>
+
+  <meta charset="utf-8">
+  <title>Bootstrap Example</title>
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/b4b8319c48.js" crossorigin="anonymous"></script>
+  
+  <style>
+      #theVideo {
+          position: fixed;
+          min-width: 100%;
+          min-height: 100%;
+          right: 0;
+          bottom: 0;
+
+      }  
+      .container {
+          position: relative;
+          color: white;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 30px;
+          
+      }
+      .menu {
+          margin-top: 7%;
+      }
+      .text {
+          margin-top: -10%;
+      }
+      #menu {
+
+        color: white;
+        text-align: right;
+        margin-right: 10%;
+        font-size: 20px;
+        
+      }
+      #info {
+
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 5%;
+        
+        
+        
+      }
+      #name {                                                                                                                   
+
+        color: white;
+        margin-left: 30%;
+        font-size:50px;
+        
+        
+        
+      }
+
+      #resume {
+        text-decoration: none;
+        color: white;
+      }
+      
+      
+
+
+    </style>
+    <video autoplay muted loop id="theVideo">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
 <body>
-    <!-- This is a comment-->
-    <h1> Sean Nauss</h1>
-    <h2> My name is Sean Nauss and I am a senior at BSU. In high school, I took a 4 year vocational
-        program at Blue Hills Regional. There, we learned IT basics and web development basics
-        (HTML, CSS, Bootstrap, AWS). In my senior year of high school, I took a co-op position at
-        Brewster Wallpapers working IT and helping around the office. Since then, I have taken 4 years
-        here at bridgewater and plan on working on Software Development when I graduate.
+  <header>
+    <h1>Bridgewater Histor</h1>
+  </header>
+<div class ="container">
 
-    </h2>
+<div class ="row">
 
-    <h2>
-        <a href=https://stevensonranch.store/> Stevenson Ranch</a>
-    </h2>
-    <h2>
-        <a href=https://www.tomscott.com/>Tom Scott</a>
-    </h2> 
-    <h2>
-        <a href=https://billburr.com/> Bill Burr</a>
-    </h2> 
-    <h2>
-        <a href=https://www.smartereveryday.com/> Smarter Everyday</a>
-    </h2> 
-    <h2>
-        <a href=https://www.vsauce.com/#/>Vsauce</a>
-    </h2> 
-    <h2>
-        <a href=https://www.tested.com/> Adam Savage</a>
-    </h2> 
-    <h2>
-        <a href=https://kylehill.net/bio> Kyle Hill</a>
-    </h2> 
-    <h2>
-        <a href=https://www.lemmi.no/faq> Lemmino</a>
-    </h2> 
-    <h2>
-        <a href=https://a18sullivan.github.io/> AJ's Website</a>
-    </h2> 
-    <h2>
-        <a href=https://www.burnie.com/> Burnie Burns</a>
-    </h2>  
-    <p>
-        <a href="assignment0.html"> Assignment 0</a>
-    </p>
+    <div class="col-lg-8">
+      <h1 id = "name"> Sean Nauss</h1>
+      <h2 id = "info">My name is Sean Nauss and I am a senior at BSU. In high school, I took a 4 year vocational
+         program at Blue Hills Regional. There, we learned IT basics and web development basics (HTML, CSS, Bootstrap, AWS).
+         In my senior year of high school, I took a co-op position at Brewster Wallpapers working IT and helping around the office.
+         Since then, I have taken 4 years here at bridgewater and plan on working on Software Development when I graduate.</h2>
+    </div>
+   
+    <div class="col-lg-4">
+      <div class = "menu">
+        <h2 id ="menu">
+            <i class="fa-solid fa-face-grin-beam"></i>
+            About Me
+        </h2>
+        <h2 id ="menu">
+            <i class="fa-solid fa-file"></i>
+            <a href ="resume.pdf" id = "resume">Resume</a>
+            
+        </h2>
+        <h2 id ="menu">
+            <i class="fa-solid fa-suitcase-rolling"></i>
+            Hobbies
+        </h2>
+        <h2 id ="menu">
+            <i class="fa-solid fa-hammer"></i>
+            Work
+        </h2>
+    </div>
+    </div>
+  </div>
+</div>
 
-</body>
+    
+ 
+
+
+
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6dea62040f7a3bab',m:'88Oh14nxkxRc.C2sg299VcHyX3yx.Dekjft_Ep1y1lE-1645052329-0-ASgmCEzXTYRZSygT2R7VrgI10IBF/eGF3hIoyrd9xQY5kDE1Ean4kbSAxQfXdeLZmGon8jJ9lD8BabAJ+DzUnZt1xIGRl1pp5frW3ILRIfrrCQ92cpDEgCHZB1/m6rrm9iaLFGhdve8cJlSKmx/kuc4Ryj7Is7qEPlDhAZffoqUiF6gUS7Sf+QVvQbLV5MRY63bY9f+qR9zFyBH8TKkeTck=',s:[0xb4a4586fe8,0x7afecebdbd],}})();</script></body>
+
 </html>
